@@ -13,4 +13,8 @@ I will begin with some rules, so I know what I am doing:
 3. Explore software engineering as representation, and write about it.
 4. Draw a rabbit every week (starting with this dog).
 
-![Hannah Manfredi, Rose Dog, 2020, Pastel, graphite, colored pencil on paper, 17.5X12](https://github.com/HannahManfredi/nextjs-blog/blob/main/public/images/rosedog.jpg "Rose Dog")
+
+
+![Rose Dog](/images/rosedog.jpg "Rose Dog")
+
+Hannah Manfredi, 2020, Pastel, graphite, colored pencil on paper, 17.5X12

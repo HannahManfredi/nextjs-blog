@@ -5,7 +5,6 @@ import Image from 'next/image'
 
 export default function FirstPost() {
   return (
-    // <Layout>
     <>
       <Head>
         <title>Hannah Manfredi Resume</title>
@@ -13,7 +12,6 @@ export default function FirstPost() {
       <Image
         priority
         src="/images/resume.jpg"
-        // className={utilStyles.borderCircle}
         height={1600}
         width={1600}
         alt="resume"
@@ -24,6 +22,5 @@ export default function FirstPost() {
         </Link>
       </h2>
     </>
-    // </Layout>
   )
 }
