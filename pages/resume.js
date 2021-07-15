@@ -11,7 +11,7 @@ export default function FirstPost() {
       </Head>
       <Image
         priority
-        src="/images/resume.jpg"
+        src="/hannah.manfredi.resume.jpg"
         height={1600}
         width={1600}
         alt="resume"
