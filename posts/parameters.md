@@ -15,6 +15,6 @@ I will begin with some rules, so I know what I am doing:
 
 
 
-![Rose Dog](/images/rosedog.jpg "Rose Dog")
+![Rose Dog](/rosedog.jpg "Rose Dog")
 
 Hannah Manfredi, 2020, Pastel, graphite, colored pencil on paper, 17.5X12
