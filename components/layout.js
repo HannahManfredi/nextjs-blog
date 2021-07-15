@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="https://github.com/HannahManfredi/nextjs-blog/blob/main/public/images/profile.JPG"
+              src="/images/profile.jpg"
               className={utilStyles.borderCircle}
               height={400}
               width={300}
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="https://github.com/HannahManfredi/nextjs-blog/blob/main/public/images/profile.JPG"
+                  src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
                   height={400}
                   width={300}
