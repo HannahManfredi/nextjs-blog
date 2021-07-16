@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Hannah Manfredi'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Hannah Manfredi'
 
 export default function Layout({ children, home }) {
   return (
@@ -12,7 +12,8 @@ export default function Layout({ children, home }) {
       <head>
         <link rel="icon" href="/favicon.ico" />
         <meta
-          content="Hannah Manfredi Portfolio"
+          name='Hannah Manfredi'
+          content='Hannah Manfredi Portfolio'
         />
       </head>
       <header className={styles.header}>
