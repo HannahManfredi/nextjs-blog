@@ -1,31 +1,6 @@
 @charset "UTF-8";
 
-/* * {
-    min-height: 0;
-    min-width: 0;
-    box-sizing: border-box;
-    transform-origin: 0px 0px 0px;
-} */
-
-/* p:blank, li:blank, div:blank, section:blank {
-    display: none;
-}
-
-p:empty, li:empty, div:empty, section:empty {
-    display: none;
-}
-
-p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, section:-moz-only-whitespace {
-    display: none;
-} */
-
 /* Page Variables */
-
-/* :root {
-    --main-width: 74%;
-    --header-height: 1.2in;
-    --sidebar-width: calc(100% - var(--main-width));
-} */
 
 .body {
     font-size: 0.95em;
@@ -37,34 +12,31 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     text-rendering: optimizeLegibility;
-    text-decoration-skip: ink;
     hyphens: auto;
+    padding: 2.4em;
+    --main-width: 74%;
+    --header-height: 1.2in;
+    --sidebar-width: calc(100% - var(--main-width));
+}
+
+.a {
     padding: 2.4em;
 }
 
-/* #save > section:first-of-type {
-    display: flex;
-    flex-direction: row;
+.tspan {
+    font-size: 18px;
 }
 
 .summary {
     font-size: 105%;
-} */
+}
 
 /* Misc */
-
-/* .img {
-    max-width: 100%;
-}
 
 .p {
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.abbr[title] {
-    text-decoration: none;
-    border: none;
+    font-size: 105%;
 }
 
 .ul {
@@ -78,63 +50,7 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
     margin: 0;
 }
 
-.li + li {
-    margin-top: 0.4em;
-}
-
-.fa, .fab {
-    text-align: center;
-    min-width: 1em;
-}
-
-li .fa, li .fab {
-    margin-right: 0.3em;
-}
-
 /* Page layout */
-
-/* #save > section:first-of-type > aside {
-    flex-basis: var(--sidebar-width);
-    padding: 0.1618in 0 0.1618in 0.1618in;
-    display: flex;
-    flex-direction: column;
-}
-
-#save > section:first-of-type > aside > section + section {
-    margin-top: 2em;
-}
-
-#save > section:first-of-type > aside > section:last-child {
-    margin-top: auto;
-}
-
-#save > section:first-of-type > section {
-    flex-basis: var(--main-width);
-    display: flex;
-    flex-direction: column;
-}
-
-#save > section:first-of-type > section > header {
-    flex-basis: var(--header-height);
-    flex-grow: 0;
-    padding: 0.1618in;
-}
-
-#save > section:first-of-type > section > section {
-    flex-grow: 1;
-    padding: 0.1618in;
-    padding-top: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-#save > section:first-of-type > section > section > section + section {
-    margin-top: 1em;
-}
-
-#save > section:first-of-type > section > section > section:last-child {
-    margin-top: auto;
-}
 
 .references address {
     font-style: normal;
@@ -148,11 +64,11 @@ li .fa, li .fab {
 .references address + address,
 .references address + p {
     padding-top: 0.5em;
-} */
+}
 
 /* Skills */
 
-/* .skills {
+.skills {
     font-size: 92%;
 }
 
@@ -175,11 +91,11 @@ li .fa, li .fab {
     color: #333;
     padding: 4px 8px;
     display: inline-block;
-} */
+}
 
 /* Experience & Education */
 
-/* .education ol,
+.education ol,
 .experience ol {
     margin: 0;
     padding: 0;
@@ -234,4 +150,4 @@ li .fa, li .fab {
 .experience ol > li ul li {
     list-style-type: circle;
     margin-left: 1.618em;
-}  */
+}

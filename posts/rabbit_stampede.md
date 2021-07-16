@@ -128,3 +128,4 @@ Thanks for reading!
 
 ![Morandi Rabbit](/morandi.jpg "Morandi Rabbit")
 
+Hannah Manfredi, Morandi Rabbit, 2020, Pastel, graphite, colored pencil on paper, 17X22"

@@ -25,97 +25,87 @@ export default function Resume() {
         <title>Hannah Manfredi Resume</title>
       </Head>
       <body className={styles.body}>
-        <section id="save">
-            <section class="sheet">
+        <section>
+            <section>
+            <header aria-label="Hannah Manfredi">
+                <a href="https://hannahmanfredi.vercel.app/">
+                    <g id="Page-1" stroke="none" stroke-width="2" fill="none" fill-rule="evenodd" font-family="Montserrat-Regular, Montserrat" font-size="48" font-weight="normal">
+                        <g id="Letter" transform="translate(-54.000000, -140.000000)" fill="#484848">
+                            <text id="HANNAH-MANFREDI">
+                                <tspan x="54.728" y="174">Hannah Manfredi</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </a>
+                <h1>Hannah Manfredi</h1>
+                <h2>Software Engineer</h2>
+                <hr />
+            </header>
                 <aside>
-                    <section class="contact">
-                        <h6>Contact</h6>
-                        <ul>
+                    <section className={styles.contact}>
+                        <h2>Contact</h2>
+                        <ul className={styles.ul}>
                             <li>
-                                <p><i class="fa fa-map-marker-alt" title="Location"></i> San Francisco, CA</p>
+                                <p><i className="fa fa-map-marker-alt" title="Location"></i> San Francisco, CA</p>
                             </li>
                             <li>
-                                <p><i class="fa fa-phone" title="Cell phone"></i> <a href="tel:7072604190">(707) 260-4190</a></p>
+                                <p><i className="fa fa-phone" title="Cell phone"></i> <a href="tel:7072604190">(707) 260-4190</a></p>
                             </li>
                             <li>
-                                <p><i class="fa fa-envelope" title="Email"></i> <a href="mailto:hmanfredi@gmail.com">hmanfredi@gmail.com</a></p>
+                                <p><i className="fa fa-envelope" title="Email"></i> <a href="mailto:hmanfredi@gmail.com">hmanfredi@gmail.com</a></p>
                             </li>
                             <li>
-                                <p><i class="fa fa-globe-americas" title="Website"></i> <a href="https://hannahmanfredi.vercel.app/">https://hannahmanfredi.vercel.app/</a></p>
+                                <p><i className="fa fa-globe-americas" title="Website"></i> <a href="https://hannahmanfredi.vercel.app/">https://hannahmanfredi.vercel.app/</a></p>
                             </li>
                             <li>
-                                <p><i class="fab fa-github" title="GitHub"></i> <a href="https://github.com/HannahManfredi">github.com/HannahManfredi</a></p>
+                                <p><i className="fab fa-github" title="GitHub"></i> <a href="https://github.com/HannahManfredi">github.com/HannahManfredi</a></p>
                             </li>
                         </ul>
                     </section>
-                    <section class="skills">
-                        <h6>Technologies</h6>
-                        <ul>
-                            <li><span>Front End: Javascript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS3, jQuery</span></li>
-                            <li><span>Back End: Node.js, Express JS, NPM, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb, Axios</span></li>
-                            <li><span>Tools: New Relic, Redis, K6, Loader io, Gulp, TravisCI, GitKraken, pgAdmin, Trello, NGINX, Webpack, Babel, Postman, Loader.io, Github</span></li>
-                            <li><span>Testing: Mocha, Chai, Jest, supertest</span></li>
-                            <li><span>Deployment: Docker, AWS: EC2, s3</span></li>
+                    <section className="skills">
+                        <h2>Skills</h2>
+                        <ul className={styles.ul}>
                             <li><span>A/B Testing</span></li>
+                            <li><span>UX/UI Design</span></li>
+                            <li><span>Time management and hitting deadlines!</span></li>
                         </ul>
-                    </section>
-                    <section class="references">
-                        <h6>References</h6>
-                        <address>
-                            Ms. Meyvi Medina-Magarino<br />
-                            React Developer, NomiSo Inc<br />
-                            (702)250-1355
-                        </address>
-                        <address>
-                            Mr. Seun Omutunde<br />
-                            Summer Associate at Tishman Speyer, NY<br />
-                            (901)351-8776
-                            seuno25@gmail.com
-                        </address>
-                        <p>Typeset in HTML &amp; CSS<br />
-                        </p>
+                        <h2>Technologies</h2>
+                        <ul className={styles.ul}>
+                            <li><span><strong>Front End</strong>: Javascript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS3, jQuery</span></li>
+                            <li><span><strong>Back End</strong>: Node.js, Express, NPM, Neo4j, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb, Axios</span></li>
+                            <li><span><strong>Tools</strong>: New Relic, Redis, K6, Loader io, Gulp, TravisCI, GitKraken, pgAdmin, Trello, NGINX, Webpack, Babel, Postman, Loader.io, Github, Notion</span></li>
+                            <li><span><strong>Testing</strong>: Mocha, Chai, Jest, supertest</span></li>
+                            <li><span><strong>Deployment</strong>: Docker, AWS: EC2, s3</span></li>
+                        </ul>
                     </section>
                 </aside>
                 <section>
-                    <header class="name" aria-label="Hannah Manfredi">
-                        <a href="https://hannahmanfredi.vercel.app/">
-                          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Montserrat-Regular, Montserrat" font-size="48" font-weight="normal">
-                              <g id="Letter" transform="translate(-54.000000, -140.000000)" fill="#484848">
-                                  <text id="HANNAH-MANFREDI">
-                                      <tspan x="54.728" y="174">Hannah Manfredi</tspan>
-                                  </text>
-                              </g>
-                          </g>
-                        </a>
-                        <h6>Software Engineer</h6>
-                        <hr />
-                    </header>
                     <section>
-                        <section class="summary">
-                            <h6>Summary</h6>
-                            <p>Deadline-oriented Software Engineer, Voice Interaction Designer and Farmer—I love going down rabbit holes!
+                        <section className={styles.summary}>
+                            <h2>Summary</h2>
+                            <p className={styles.p}>Deadline-oriented Software Engineer with experience using modern JavaScript frameworks. I am also a Voice Interaction Designer and Farmer—I love going down rabbit holes!
                             </p>
                         </section>
-                        <section class="experience">
-                            <h6>Experience</h6>
-                            <ol>
+                        <section className={styles.experience}>
+                            <h2>Experience</h2>
+                            <h3>SOFTWARE ENGINEERING APPLICATIONS</h3>
+                            <ul className={styles.ul}>
                                 <li>
-                                    <header>
-                                        <p class="sanserif">SOFTWARE ENGINEERING APPLICATIONS</p>
-                                        <time>2021</time>
-                                    </header>
-                                    <span>MAILTO:<a href="HTTPS://GITHUB.COM/SDCMAILTO/SDC-CUSTOMERREVIEWS"></a></span>
-                                    <span>POSTGRESQL, EXPRESS, REACT, NODE</span>
-                                    <span>Reviews microservice for an e-commerce company designed with systems-oriented architecture</span>
+                                    <span><a href="https://github.com/SDCmailto/SDC-CustomerReviews.git">MAILTO:</a></span><br></br>
+                                    <span><em>POSTGRESQL, EXPRESS, REACT, NODE</em></span><br></br>
+                                    <span><strong>Reviews microservice for an e-commerce company designed with systems-oriented architecture</strong></span>
                                     <ul>
                                         <li>Engineered a script to seed a PostgreSQL database with 1 million products and their 40+ million reviews in under 12 minutes.</li>
                                         <li>Improved database querying response time from 88,045 milliseconds to 0.9 milliseconds by indexing PostgreSQL columns.</li>
                                         <li>Stress tested using New Relic and Loader.io after deployment
                                         and successfully increased traffic from 500 to 1000 requests per second with 0% error rate and less than 100 ms latency response by leveraging horizontal scaling with NGINX and caching with Redis.</li>
                                     </ul>
-                                    <span>ANNEBONNY:<a href="HTTPS://GITHUB.COM/ARRRRWEBEANNEBONNY/BOOKING"></a></span>
-                                    <span>MONGODB, EXPRESS, REACT, NODE</span>
-                                    <span>Booking microservice for a campsite marketplace app designed with systems-oriented architecture</span>
+                                </li>
+                                <br></br>
+                                <li>
+                                    <span><a href="https://github.com/ArrrrWeBeAnneBonny/booking.git">ANNEBONNY:</a></span><br></br>
+                                    <span><em>MONGODB, EXPRESS, REACT, NODE</em></span><br></br>
+                                    <span><strong>Booking microservice for a campsite marketplace app designed with systems-oriented architecture</strong></span>
                                     <ul>
                                         <li>Created full-stack application utilizing microservices to display booking component using RESTful APIs.</li>
                                         <li>Increased page loading speed by 20% by enabling Express compression middleware.</li>
@@ -124,38 +114,52 @@ export default function Resume() {
                                         <li>Adhered to Agile methodologies, attending weekly scrums, and programming with a sprint/MVP focus.</li>
                                     </ul>
                                 </li>
+                                <h3>PROFESSIONAL EXPERIENCE</h3>
                                 <li>
                                     <header>
-                                        <p class="sanserif">Founder</p>
-                                        <time>2020 - 2021</time>
+                                        <h3>Founder</h3>
+                                        <time>2020 - 2021</time><br></br>
+                                        <span><a href="https://rabbitrabbitplantnursery.com/">Rabbit Rabbit Plant Nursery</a></span>
+                                        <p className={styles.p}> I created Rabbit Rabbit Gardening Co—a zero-plastic plant nursery specializing in herbs, fruits, veggies and flowers that thrive in the Richmond neighborhood of San Francisco where I am based.</p>
                                     </header>
-                                    <span>Rabbit Rabbit Plant Nursery</span>
-                                    <span><a href="https://rabbitrabbitplantnursery.com/">Rabbit Rabbit Plant Nursery</a></span>
                                 </li>
                                 <li>
                                     <header>
-                                        <p class="sanserif">Independent  Tutor</p>
+                                        <h3>Independent  Tutor</h3>
                                         <time>2020 - 2021</time>
                                     </header>
                                     <span>Tutored K-6 Math, Reading, Writing, Art and Chess</span>
                                 </li>
                                 <li>
+                                <h3>BackerKit, Crowdfunding CRM Startup</h3>
                                     <header>
-                                        <p class="sanserif">KEY ACCOUNT MANAGER</p>
-                                        <time>2016 – 2020</time>
+                                        <h3><em>Key Account Manager</em></h3>
+                                        <time>2019 – 2020</time>
                                     </header>
-                                    <span>BackerKit, CROWDFUNDING CRM STARTUP
-                                    </span>
-                                    <ul>
-                                        <li>DAs the highest-performing Sales Executive at BackerKit, I cultivated relationships with the top 20% of our customer base and I consistently achieved avg. 211% Quota Attainment.</li>
+                                        <ul>
+                                        <li>As the highest-performing Sales Executive at BackerKit, I cultivated relationships with the top 20% of our customer base and I consistently achieved avg. 211% Quota Attainment.</li>
                                         <li>I worked closely with the Product, Engineering and Customer Success teams in order to assist new feature development and hit our targets for customer acquisition and retainment.</li>
-                                        <li>Major account wins include: Peak Design, Nomatic, HYPER, WeatherFlow, ORU, BioLite, Sphero, Sonny, LUMI, Middara, Matrix Smartwatch, EufyCam, Revols, Quartz, and Monkiii (all Million Dollar + Crowdfunding Campaigns).</li>
-                                        <li>Avg. contract value was $500K.</li>
-                                    </ul>
+                                        </ul>
+                                    <header>
+                                        <h3><em>Senior Account Executive</em></h3>
+                                        <time>2018 – 2019</time>
+                                    </header>
+                                        <ul>
+                                            <li>Major account wins include: Peak Design, Nomatic, HYPER, WeatherFlow, ORU, BioLite, Sphero, Sonny, LUMI, Middara, Matrix Smartwatch, EufyCam, Revols, Quartz, and Monkiii (all Million Dollar + Crowdfunding Campaigns).</li>
+                                            <li>Avg. contract value was $500K.</li>
+                                        </ul>
+                                    <header>
+                                        <h3><em>Account Executive</em></h3>
+                                        <time>2016 – 2018</time>
+                                    </header>
+                                        <ul>
+                                            <li>Traveled globally to conferences in order to establish relationships with crowdfunding creators from every category, including tabletop games, appliances and outdoor gear.</li>
+                                            <li>Avg. contract value was $50K.</li>
+                                        </ul>
                                 </li>
                                 <li>
                                     <header>
-                                        <p class="sanserif">Development Director</p>
+                                        <h3>Development Director</h3>
                                         <time>2014 – 2016</time>
                                     </header>
                                     <span>Headstand, K-12 YOGA STARTUP</span>
@@ -167,7 +171,7 @@ export default function Resume() {
                                 </li>
                                 <li>
                                     <header>
-                                        <p class="sanserif">FELLOWSHIP, PUBLICATIONS DEPARTMENT</p>
+                                        <h3>FELLOWSHIP, PUBLICATIONS DEPARTMENT</h3>
                                         <time>2012 - 2013</time>
                                     </header>
                                     <span>The Museum of Modern Art, NYC</span>
@@ -176,51 +180,66 @@ export default function Resume() {
                                         <li>I published my reviews of MoMA exhibitions, publications and screenings on the MoMA blog.</li>
                                     </ul>
                                 </li>
-                            </ol>
+                            </ul>
                         </section>
-                        <section class="education">
-                            <h6>Education</h6>
-                            <ol>
+                        <section className="education">
+                            <h2>Education</h2>
+                            <ul>
                                 <li>
                                     <div>
-                                        <p class="sanserif">Advanced Software Engineering Immersive</p>
+                                        <h3>Advanced Software Engineering Immersive Program</h3>
                                         <time>July '20 – Sept '21</time>
                                     </div>
                                     <div>
-                                        <span>Hack Reactor</span>
-                                        <span></span>
+                                        <span><strong>Hack Reactor at Galvanize</strong></span>
                                     </div>
                                 </li>
                                 <li>
                                     <div>
-                                        <p class="sanserif">UX/UI</p>
+                                        <h3>UX/UI Certificate Program</h3>
                                         <time>Aug '18 – Dec '19</time>
                                     </div>
                                     <div>
-                                        <span>UC Berkeley Extension</span>
-                                        <span></span>
+                                        <span><strong>UC Berkeley Extension</strong></span>
                                     </div>
                                 </li>
                                 <li>
                                     <div>
-                                        <p class="sanserif">B.A., Visual & Critical Studies</p>
+                                        <h3>B.A., Visual and Critical Studies</h3>
                                         <time>Sept '08 – May '12</time>
                                     </div>
                                     <div>
-                                        <span>The School of the Art Institute of Chicago</span>
+                                        <span><strong>The School of the Art Institute of Chicago</strong></span>
                                     </div>
                                 </li>
-                            </ol>
+                            </ul>
                         </section>
+                        <section className="references">
+                        <h2>References</h2>
+                        <address>
+                            <strong>Ms. Meyvi Medina-Magarino</strong><br />
+                            React Developer, NomiSo Inc<br />
+                            (702)250-1355
+                        </address>
+                        <br></br>
+                        <address>
+                            <strong>Mr. Seun Omutunde</strong><br />
+                            Summer Associate at Tishman Speyer, NY<br />
+                            (901)351-8776
+                            seuno25@gmail.com
+                        </address>
+                    </section>
                     </section>
                 </section>
             </section>
         </section>
+        <br></br>
+        <h4>(Typeset in HTML &amp; CSS)<br/></h4>
         <script type="text/javascript" src="./index.js"></script>
     </body>
       <h2>
         <Link href="/">
-          <a>Back to home</a>
+          <a className={styles.a}>Back to home</a>
         </Link>
       </h2>
     </>
