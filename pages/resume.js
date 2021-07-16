@@ -217,14 +217,14 @@ export default function Resume() {
                         <section className="references">
                         <h2>References</h2>
                         <address>
-                            <strong>Ms. Meyvi Medina-Magarino</strong><br />
-                            React Developer, NomiSo Inc<br />
+                            <strong>Ms. Meyvi Medina-Magarino</strong><br><br/>
+                            React Developer, NomiSo Inc<br><br/>
                             (702)250-1355
                         </address>
                         <br></br>
                         <address>
-                            <strong>Mr. Seun Omutunde</strong><br />
-                            Summer Associate at Tishman Speyer, NY<br />
+                            <strong>Mr. Seun Omutunde</strong><br><br/>
+                            Summer Associate at Tishman Speyer, NY<br><br/>
                             (901)351-8776<br><br/>
                             seuno25@gmail.com
                         </address>
