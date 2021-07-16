@@ -25,13 +25,13 @@ export default function Home({allPostsData}) {
         <p>Hi, I'm Hannah. I'm a Software Engineer, Voice Interaction Designer and Farmer, and I love going down rabbit holes! You can contact me on <a href="https://twitter.com/HannahManfredi">Twitter.</a></p>
         <p><h3><strong>TECHNICAL SKILLS</strong></h3>
           <ul>
-            <li><em><b>Front End</b></em>: Javascript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS, jQuery</li>
+            <li><em><b>Front End</b></em>: Javascript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS3, jQuery</li>
           </ul>
           <ul>
-            <li><em><b>Back End</b></em>: Node.js, Express JS, NPM, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb, Axios</li>
+            <li><em><b>Back End</b></em>: Node.js, Express, NPM, Sequelize, Neo4j, MySQL, PostgreSQL, MongoDb, CouchDb, Axios</li>
           </ul>
           <ul>
-            <li><em><b>Tools</b></em>: New Relic, Redis, K6, Loader io, Gulp, TravisCI, GitKraken,  pgAdmin, Trello, NGINX, Webpack, Babel, Postman, Loader.io, Github</li>
+            <li><em><b>Tools</b></em>: New Relic, Redis, K6, Loader io, Gulp, TravisCI, GitKraken, pgAdmin, Trello,notion, NGINX, Webpack, Babel, Postman, Loader.io, Github</li>
           </ul>
           <ul>
             <li><em><b>Testing</b></em>: Mocha, Chai, Jest, supertest </li>
@@ -41,7 +41,7 @@ export default function Home({allPostsData}) {
           </ul>
         </p>
         <p>
-          <h3><strong>APPLICATIONS:</strong></h3>
+          <h3><strong>SOFTWARE APPLICATIONS:</strong></h3>
             <ul>
               <li><a href="https://github.com/ArrrrWeBeAnneBonny/booking.git">AnneBonny</a></li>
               <li><a href="https://github.com/SDCmailto/SDC-CustomerReviews.git">mailto</a></li>
