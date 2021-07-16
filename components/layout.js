@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -10,13 +9,13 @@ export const siteTitle = 'Hannah Manfredi'
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
-      <Head>
+      <head>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name='Hannah Manfredi'
           content='Hannah Manfredi Portfolio'
         />
-      </Head>
+      </head>
       <header className={styles.header}>
         {home ? (
           <>

@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from '../styles/resume.module.css'
 
 export default function Resume() {
   return (
     <>
-      <Head>
+      <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
@@ -23,7 +22,7 @@ export default function Resume() {
         <link rel="stylesheet" type="text/css" media="screen" href="./screen.css" />
         <script async defer src="https://buttons.github.io/buttons.js"></script>
         <title>Hannah Manfredi Resume</title>
-      </Head>
+      </head>
       <body className={styles.body}>
         <section>
             <section>
