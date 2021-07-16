@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
@@ -18,9 +17,9 @@ export async function getStaticProps() {
 export default function Home({allPostsData}) {
   return (
     <Layout home>
-      <Head>
+      <head>
         <title className={utilStyles.heading2XL}>Hannah Manfredi</title>
-      </Head>
+      </head>
       <section className={utilStyles.headingMd}>
         <p>Hi, I'm Hannah. I'm a Software Engineer, Voice Interaction Designer and Farmer, and I love going down rabbit holes! You can contact me on <a href="https://twitter.com/HannahManfredi">Twitter.</a></p>
         <p><h3><strong>TECHNICAL SKILLS</strong></h3>
