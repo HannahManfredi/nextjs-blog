@@ -61,7 +61,7 @@ export default function Resume() {
                             </li>
                         </ul>
                     </section>
-                    <section className="skills">
+                    <section className={styles.skills}>
                         <h2>Skills</h2>
                         <ul className={styles.ul}>
                             <li><span>A/B Testing</span></li>
@@ -181,7 +181,7 @@ export default function Resume() {
                                 </li>
                             </ul>
                         </section>
-                        <section className="education">
+                        <section className={styles.education}>
                             <h2>Education</h2>
                             <ul>
                                 <li>
@@ -213,7 +213,7 @@ export default function Resume() {
                                 </li>
                             </ul>
                         </section>
-                        <section className="references">
+                        <section className={styles.references}>
                         <h2>References</h2>
                         <address>
                             <strong>Ms. Meyvi Medina-Magarino</strong>
