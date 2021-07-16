@@ -162,7 +162,7 @@ export default function Resume() {
                                         <h3>Development Director</h3>
                                         <time>2014 – 2016</time>
                                     </header>
-                                    <span>Headstand, K-12 YOGA STARTUP</span>
+                                    <span>Headstand, K-12 Yoga Startup</span>
                                     <ul>
                                         <li>I conducted and tracked new donor and corporate sponsorship outreach and managed an existing pipeline of 500+ International donors.</li>
                                         <li>I managed all strategic communications with donors, school partners and volunteers (whom I recruited and coordinated).</li>
@@ -171,7 +171,7 @@ export default function Resume() {
                                 </li>
                                 <li>
                                     <header>
-                                        <h3>FELLOWSHIP, PUBLICATIONS DEPARTMENT</h3>
+                                        <h3>Fellowship, Publications Department</h3>
                                         <time>2012 - 2013</time>
                                     </header>
                                     <span>The Museum of Modern Art, NYC</span>
@@ -225,7 +225,7 @@ export default function Resume() {
                         <address>
                             <strong>Mr. Seun Omutunde</strong><br />
                             Summer Associate at Tishman Speyer, NY<br />
-                            (901)351-8776
+                            (901)351-8776<br><br/>
                             seuno25@gmail.com
                         </address>
                     </section>
