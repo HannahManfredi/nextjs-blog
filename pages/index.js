@@ -24,7 +24,7 @@ export default function Home({allPostsData}) {
         <p>Hi, I'm Hannah. I'm a Software Engineer, Voice Interaction Designer and Farmer, and I love going down rabbit holes! You can contact me on <a href="https://twitter.com/HannahManfredi">Twitter.</a></p>
         <p><h3><strong>TECHNICAL SKILLS</strong></h3>
           <ul>
-            <li><em><b>Front End</b></em>: Javascript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS3, jQuery</li>
+            <li><em><b>Front End</b></em>: JavaScript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS3, jQuery</li>
           </ul>
           <ul>
             <li><em><b>Back End</b></em>: Node.js, Express, NPM, Sequelize, Neo4j, MySQL, PostgreSQL, MongoDb, CouchDb, Axios</li>
