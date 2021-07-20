@@ -187,7 +187,7 @@ export default function Resume() {
                                         <h3>Fellowship, Publications Department</h3>
                                         <time>2012 - 2013</time>
                                     </header>
-                                    <span>The Museum of Modern Art</span>
+                                    <span>The Museum of Modern Art</span><br></br>
                                     <span>NYC, NY</span>
                                     <ul>
                                         <li>I performed daily editorial tasks including copywriting, editing, layout design and checking artist rights and permissions for the exhibition catalogue, “The Century of the Child”.</li>
