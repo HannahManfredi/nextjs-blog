@@ -67,6 +67,7 @@ export default function Resume() {
                             <li><span>A/B Testing</span></li>
                             <li><span>UX/UI Design</span></li>
                             <li><span>Time management and hitting deadlines!</span></li>
+                            <li><span>Languages: English, Spanish, Thai</span></li>
                         </ul>
                         <h2>Technologies</h2>
                         <ul className={styles.ul}>
@@ -131,6 +132,7 @@ export default function Resume() {
                                 </li>
                                 <li>
                                 <h3>BackerKit, Crowdfunding CRM Startup</h3>
+                                <span>San Francisco, Ca</span>
                                     <header>
                                         <h3><em>Key Account Manager</em></h3>
                                         <time>2019 – 2020</time>
@@ -162,6 +164,7 @@ export default function Resume() {
                                         <time>2014 – 2016</time>
                                     </header>
                                     <span>Headstand, K-12 Yoga Startup</span>
+                                    <span>San Francisco, Ca</span>
                                     <ul>
                                         <li>I conducted and tracked new donor and corporate sponsorship outreach and managed an existing pipeline of 500+ International donors.</li>
                                         <li>I managed all strategic communications with donors, school partners and volunteers (whom I recruited and coordinated).</li>
@@ -170,10 +173,22 @@ export default function Resume() {
                                 </li>
                                 <li>
                                     <header>
+                                        <h3>Executive Assistant</h3>
+                                        <time>2013 – 2014</time>
+                                    </header>
+                                    <span>The Slanted Door Group</span>
+                                    <span>San Francisco, Ca</span>
+                                    <ul>
+                                        <li>I was the right-hand woman to Chef-Entrepreneur, Charles Phan!</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <header>
                                         <h3>Fellowship, Publications Department</h3>
                                         <time>2012 - 2013</time>
                                     </header>
-                                    <span>The Museum of Modern Art, NYC</span>
+                                    <span>The Museum of Modern Art</span>
+                                    <span>NYC, NY</span>
                                     <ul>
                                         <li>I performed daily editorial tasks including copywriting, editing, layout design and checking artist rights and permissions for the exhibition catalogue, “The Century of the Child”.</li>
                                         <li>I published my reviews of MoMA exhibitions, publications and screenings on the MoMA blog.</li>
@@ -183,51 +198,72 @@ export default function Resume() {
                         </section>
                         <section className={styles.education}>
                             <h2>Education</h2>
-                            <ul>
-                                <li>
-                                    <div>
-                                        <h3>Advanced Software Engineering Immersive Program</h3>
-                                        <time>July '20 – Sept '21</time>
-                                    </div>
-                                    <div>
-                                        <span><strong>Hack Reactor at Galvanize</strong></span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <h3>UX/UI Certificate Program</h3>
-                                        <time>Aug '18 – Dec '19</time>
-                                    </div>
-                                    <div>
-                                        <span><strong>UC Berkeley Extension</strong></span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <h3>B.A., Visual and Critical Studies</h3>
-                                        <time>Sept '08 – May '12</time>
-                                    </div>
-                                    <div>
-                                        <span><strong>The School of the Art Institute of Chicago</strong></span>
-                                    </div>
-                                </li>
-                            </ul>
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <h3>Advanced Software Engineering Immersive Program</h3>
+                                            <time>July '20 – Sept '21</time>
+                                        </div>
+                                        <div>
+                                            <span><strong>Hack Reactor at Galvanize</strong></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h3>UX/UI Certificate Program</h3>
+                                            <time>Aug '18 – Dec '19</time>
+                                        </div>
+                                        <div>
+                                            <span><strong>UC Berkeley Extension</strong></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h3>RYT 500 Hr. Yoga Alliance Certified Teacher Training</h3>
+                                            <time>2013 – 2014</time>
+                                        </div>
+                                        <div>
+                                            <span><strong>POST, Wellness by Design</strong></span><br></br>
+                                            <span><strong>Petaluma, CA</strong></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h3>B.A., Visual and Critical Studies</h3>
+                                            <time>Sept '08 – May '12</time><br></br>
+                                            <span><em>Presidential Merit Scholarship Recipient</em></span><br></br>
+                                            <span><em>Concurrently enrolled in the Theater and Performance Studies Dept. at the University of Chicago</em></span>
+                                        </div>
+                                        <div>
+                                            <span><strong>The School of the Art Institute of Chicago</strong></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h3>Rotary Exchange Scholar</h3>
+                                            <time>2005 – 2006</time>
+                                        </div>
+                                        <div>
+                                            <span><strong>Bangkok, Thailand</strong></span>
+                                        </div>
+                                    </li>
+                                </ul>
                         </section>
                         <section className={styles.references}>
-                        <h2>References</h2>
-                        <address>
-                            <strong>Ms. Meyvi Medina-Magarino</strong>
-                            <br></br>React Developer, NomiSo Inc
-                            <br></br>(702)250-1355
-                        </address>
-                        <br></br>
-                        <address>
-                            <strong>Mr. Seun Omutunde</strong>
-                            <br></br>Summer Associate at Tishman Speyer, NY
-                            <br></br>(901)351-8776
-                            <br></br>seuno25@gmail.com
-                        </address>
-                    </section>
+                            <h2>References</h2>
+                            <address>
+                                <strong>Ms. Meyvi Medina-Magarino</strong>
+                                <br></br>React Developer, NomiSo Inc
+                                <br></br>(702)250-1355
+                            </address>
+                            <br></br>
+                            <address>
+                                <strong>Mr. Seun Omutunde</strong>
+                                <br></br>Summer Associate at Tishman Speyer, NY
+                                <br></br>(901)351-8776
+                                <br></br>seuno25@gmail.com
+                            </address>
+                        </section>
                     </section>
                 </section>
             </section>
