@@ -73,7 +73,7 @@ export default function Resume() {
                         <ul className={styles.ul}>
                             <li><span><strong>Front End</strong>: Javascript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS3, jQuery</span></li>
                             <li><span><strong>Back End</strong>: Node.js, Express, NPM, Neo4j, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb, Axios</span></li>
-                            <li><span><strong>Tools</strong>: New Relic, Redis, K6, Loader io, Gulp, TravisCI, GitKraken, pgAdmin, Trello, NGINX, Webpack, Babel, Postman, Loader.io, Github, Notion</span></li>
+                            <li><span><strong>Tools</strong>: New Relic, Redis, K6, Loader io, Gulp, TravisCI, GitKraken, pgAdmin, Trello, NGINX, Webpack, Babel, Postman, Loader.io, Github, notion</span></li>
                             <li><span><strong>Testing</strong>: Mocha, Chai, Jest, supertest</span></li>
                             <li><span><strong>Deployment</strong>: Docker, AWS: EC2, s3</span></li>
                         </ul>
@@ -163,7 +163,7 @@ export default function Resume() {
                                         <h3>Development Director</h3>
                                         <time>2014 – 2016</time>
                                     </header>
-                                    <span>Headstand, K-12 Yoga Startup</span>
+                                    <span>Headstand, K-12 Yoga Startup</span><br></br>
                                     <span>San Francisco, Ca</span>
                                     <ul>
                                         <li>I conducted and tracked new donor and corporate sponsorship outreach and managed an existing pipeline of 500+ International donors.</li>
@@ -176,7 +176,7 @@ export default function Resume() {
                                         <h3>Executive Assistant</h3>
                                         <time>2013 – 2014</time>
                                     </header>
-                                    <span>The Slanted Door Group</span>
+                                    <span>The Slanted Door Group</span><br></br>
                                     <span>San Francisco, Ca</span>
                                     <ul>
                                         <li>I was the right-hand woman to Chef-Entrepreneur, Charles Phan!</li>
