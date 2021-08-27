@@ -71,9 +71,9 @@ export default function Resume() {
                         </ul>
                         <h2>Technologies</h2>
                         <ul className={styles.ul}>
-                            <li><span><strong>Front End</strong>: Javascript, React.js, Next.js, Gatsby, Ghost, HTML5, CSS3, jQuery</span></li>
-                            <li><span><strong>Back End</strong>: Node.js, Express, NPM, Neo4j, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb, Axios</span></li>
-                            <li><span><strong>Tools</strong>: New Relic, Redis, K6, Loader io, Gulp, TravisCI, GitKraken, pgAdmin, Trello, NGINX, Webpack, Babel, Postman, Loader.io, Github, notion</span></li>
+                            <li><span><strong>Front End</strong>: Javascript, React.js, Redux, TypeScript, Next.js, Gatsby, Ghost, HTML5, CSS3</span></li>
+                            <li><span><strong>Back End</strong>: Node.js, Python, GoLang, Rust, GraphQL, Express, GraphQL,  Neo4j, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb</span></li>
+                            <li><span><strong>Tools</strong>: New Relic, DataDog, Redis, K6, Loader io, Gulp, CircleCI, GitKraken, pgAdmin, Trello, NGINX, Postman, Loader.io</span></li>
                             <li><span><strong>Testing</strong>: Mocha, Chai, Jest, supertest</span></li>
                             <li><span><strong>Deployment</strong>: Docker, AWS: EC2, s3</span></li>
                         </ul>
@@ -81,11 +81,6 @@ export default function Resume() {
                 </aside>
                 <section>
                     <section>
-                        <section className={styles.summary}>
-                            <h2>Summary</h2>
-                            <p className={styles.p}>Deadline-oriented Software Engineer with experience using modern JavaScript frameworks. I am also a Voice Interaction Designer and Farmer—I love going down rabbit holes!
-                            </p>
-                        </section>
                         <section className={styles.experience}>
                             <h2>Experience</h2>
                             <h3>SOFTWARE ENGINEERING APPLICATIONS</h3>
@@ -93,7 +88,7 @@ export default function Resume() {
                                 <li>
                                     <span><a href="https://github.com/SDCmailto/SDC-CustomerReviews.git">MAILTO:</a></span><br></br>
                                     <span><em>POSTGRESQL, EXPRESS, REACT, NODE</em></span><br></br>
-                                    <span><strong>Reviews microservice for an e-commerce company designed with systems-oriented architecture</strong></span>
+                                    <span><strong>Reviews microservice for an e-commerce company designed with service-oriented architecture</strong></span>
                                     <ul>
                                         <li>Engineered a script to seed a PostgreSQL database with 1 million products and their 40+ million reviews in under 12 minutes.</li>
                                         <li>Improved database querying response time from 88,045 milliseconds to 0.9 milliseconds by indexing PostgreSQL columns.</li>
@@ -105,7 +100,7 @@ export default function Resume() {
                                 <li>
                                     <span><a href="https://github.com/ArrrrWeBeAnneBonny/booking.git">ANNEBONNY:</a></span><br></br>
                                     <span><em>MONGODB, EXPRESS, REACT, NODE</em></span><br></br>
-                                    <span><strong>Booking microservice for a campsite marketplace app designed with systems-oriented architecture</strong></span>
+                                    <span><strong>Booking microservice for a campsite marketplace app designed with service-oriented architecture</strong></span>
                                     <ul>
                                         <li>Created full-stack application utilizing microservices to display booking component using RESTful APIs.</li>
                                         <li>Increased page loading speed by 20% by enabling Express compression middleware.</li>
@@ -117,6 +112,14 @@ export default function Resume() {
                                 <h3>PROFESSIONAL EXPERIENCE</h3>
                                 <li>
                                     <header>
+                                        <h3>Front End Software Engineer</h3>
+                                        <time>August, 2021 - Current</time><br></br>
+                                    </header>
+                                    <span>Udacity</span><br></br>
+                                    <span>San Francisco, Ca</span>
+                                </li>
+                                <li>
+                                    <header>
                                         <h3>Founder</h3>
                                         <time>2020 - 2021</time><br></br>
                                         <span><a href="https://rabbitrabbitplantnursery.com/">Rabbit Rabbit Plant Nursery</a></span>
@@ -125,10 +128,10 @@ export default function Resume() {
                                 </li>
                                 <li>
                                     <header>
-                                        <h3>Independent  Tutor</h3>
+                                        <h3>Independent Tutor</h3>
                                         <time>2020 - 2021</time>
                                     </header>
-                                    <span>Tutored K-6 Math, Reading, Writing, Art and Chess</span>
+                                    <span>Tutored K-12 Students in Math, Reading, Writing, Art and Chess</span>
                                 </li>
                                 <li>
                                 <h3>BackerKit, Crowdfunding CRM Startup</h3>
