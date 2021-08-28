@@ -36,7 +36,7 @@ export default function Home({allPostsData}) {
             <li><em><b>Back-End Frameworks</b></em>: Node.js, Express, GoLang, AWS</li>
           </ul>
           <ul>
-            <li><em><b>Databases</b></em>:mySQL, SQLite, PostgreSQL, MongoDb, CouchDb, Sequelize ORM, Mongoose ORM, AWS RDS, Redis</li>
+            <li><em><b>Databases</b></em>: mySQL, SQLite, PostgreSQL, MongoDb, CouchDb, Sequelize ORM, Mongoose ORM, AWS RDS, Redis</li>
           </ul>
           <ul>
             <li><em><b>Deployment/Tools/Task-Runners</b></em>: Docker, DataDog, K6, Loader.io, NGINX, Postman, GitKraken, Trello, pgAdmin, AWS: EC2, s3, Travis, CircleCI, Grunt, Gulp</li>
