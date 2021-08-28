@@ -41,9 +41,12 @@ export default function Home({allPostsData}) {
           <ul>
             <li><em><b>Deployment/Tools/Task-Runners</b></em>: Docker, DataDog, K6, Loader.io, NGINX, Postman, GitKraken, Trello, pgAdmin, AWS: EC2, s3, Travis, CircleCI, Grunt, Gulp</li>
           </ul>
+          <ul>
+            <li><em><b>Other Software Proficiencies</b></em>: Photoshop, Illustrator, InDesign, Figma</li>
+          </ul>
         </p>
         <p>
-          <h3><strong>SOFTWARE APPLICATIONS:</strong></h3>
+          <h3><strong>APPS</strong></h3>
             <ul>
               <li><a href="https://github.com/ArrrrWeBeAnneBonny/booking.git">AnneBonny</a></li>
               <li><a href="https://github.com/SDCmailto/SDC-CustomerReviews.git">mailto</a></li>
