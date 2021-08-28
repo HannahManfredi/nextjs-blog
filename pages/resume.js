@@ -71,9 +71,9 @@ export default function Resume() {
                         </ul>
                         <h2>Technologies</h2>
                         <ul className={styles.ul}>
-                            <li><span><strong>Front End</strong>: Javascript, React.js, Redux, TypeScript, Next.js, Gatsby, Ghost, HTML5, CSS3</span></li>
-                            <li><span><strong>Back End</strong>: Node.js, Python, GoLang, Rust, GraphQL, Express, GraphQL,  Neo4j, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb</span></li>
-                            <li><span><strong>Tools</strong>: New Relic, DataDog, Redis, K6, Loader io, Gulp, CircleCI, GitKraken, pgAdmin, Trello, NGINX, Postman, Loader.io</span></li>
+                            <li><span><strong>Front End</strong>: Javascript (ES5+, TS), React.js, Redux, Next.js, HTML5, CSS3, D3.js, styled-components</span></li>
+                            <li><span><strong>Back End</strong>: Node.js, Python, GoLang, GraphQL, Express, GraphQL, Sequelize ORM, Mongoose ORM, MySQL, PostgreSQL, MongoDb, CouchDb</span></li>
+                            <li><span><strong>Tools</strong>: New Relic, DataDog, Redis, K6, Loader io, Grunt, Gulp, Travis, CircleCI, GitKraken, pgAdmin, Trello, NGINX, Postman, Loader.io</span></li>
                             <li><span><strong>Testing</strong>: Mocha, Chai, Jest, supertest</span></li>
                             <li><span><strong>Deployment</strong>: Docker, AWS: EC2, s3</span></li>
                         </ul>
@@ -228,6 +228,15 @@ export default function Resume() {
                                         <div>
                                             <span><strong>POST, Wellness by Design</strong></span><br></br>
                                             <span><strong>Petaluma, CA</strong></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h3>Theater Studies</h3>
+                                            <time>Aug '10 – May '11</time>
+                                        </div>
+                                        <div>
+                                            <span><strong>The University of Chicago</strong></span>
                                         </div>
                                     </li>
                                     <li>

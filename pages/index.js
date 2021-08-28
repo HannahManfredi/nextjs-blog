@@ -22,21 +22,24 @@ export default function Home({allPostsData}) {
       </head>
       <section className={utilStyles.headingMd}>
         <p>Hi, I'm Hannah. I'm a Software Engineer, Voice Interaction Designer and Farmer, and I love going down rabbit holes! You can contact me on <a href="https://twitter.com/HannahManfredi">Twitter.</a></p>
-        <p><h3><strong>TECHNICAL SKILLS</strong></h3>
+        <p><h3><strong>SKILLS</strong></h3>
           <ul>
-            <li><em><b>Front End</b></em>: Javascript, React.js, Redux, TypeScript, Next.js, Gatsby, Ghost, HTML5, CSS3</li>
+            <li><em><b>Languages</b></em>: Javascript(ES5+, TS), Python, GoLang, SQL, GraphQL, CSS/HTML</li>
           </ul>
           <ul>
-            <li><em><b>Back End</b></em>: Node.js, Python, GoLang, Rust, GraphQL, Express, GraphQL,  Neo4j, Sequelize, MySQL, PostgreSQL, MongoDb, CouchDb</li>
+            <li><em><b>Libraries</b></em>: Redux, Three.js/D3/Canvas, styled-components, Underscore, Mocha, Chai, Jest, supertest</li>
           </ul>
           <ul>
-            <li><em><b>Tools</b></em>: New Relic, DataDog, Redis, K6, Loader io, Gulp, CircleCI, GitKraken, pgAdmin, Trello, NGINX, Postman, Loader.io</li>
+            <li><em><b>Front-End Frameworks</b></em>: React, Next.js</li>
           </ul>
           <ul>
-            <li><em><b>Testing</b></em>: Mocha, Chai, Jest, supertest </li>
+            <li><em><b>Back-End Frameworks</b></em>: Node.js, Express, GoLang, AWS</li>
           </ul>
           <ul>
-            <li><em><b>Deployment</b></em>: Docker, AWS: EC2, s3</li>
+            <li><em><b>Databases</b></em>:mySQL, SQLite, PostgreSQL, MongoDb, CouchDb, Sequelize ORM, Mongoose ORM, AWS RDS, Redis</li>
+          </ul>
+          <ul>
+            <li><em><b>Deployment/Tools/Task-Runners</b></em>: Docker, DataDog, K6, Loader.io, NGINX, Postman, GitKraken, Trello, pgAdmin, AWS: EC2, s3, Travis, CircleCI, Grunt, Gulp</li>
           </ul>
         </p>
         <p>
